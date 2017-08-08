@@ -423,7 +423,7 @@ public class MainActivity extends AppCompatActivity {
             String labelId = "is:starred"; // ID of the user label to add
             Filter filter = new Filter()
                     .setCriteria(new FilterCriteria()
-                            .setFrom("misprioritarios@gmail.com"))
+                            .setFrom("youremailaccount@gmail.com"))
                     .setAction(new FilterAction()
                             .setAddLabelIds(Arrays.asList(labelId))
                             .setRemoveLabelIds(Arrays.asList("INBOX")));
